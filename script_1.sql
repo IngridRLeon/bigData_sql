@@ -22,9 +22,9 @@ VALUES
     (3, 104, 750.00, 2021, 'Store C', 'Product W', '2021-05-12', 75, 'Home'),
     (3, 102, 400.00, 2022, 'Store C', 'Product Y', '2022-06-18', 40, 'Electronics'),
     (4, 105, 300.00, 2019, 'Store D', 'Product V', '2019-07-22', 30, 'Clothing'),
-    (4, 105, 300.00, 2020, 'Store D', 'Product V', '2020-07-22', 50, 'Home'),
-    (4, 105, 300.00, 2021, 'Store D', 'Product V', '2021-07-22', 90, 'Clothing'),
-	(4, 105, 300.00, 2022, 'Store D', 'Product V', '2022-07-22', 50, 'Home');
+    (4, 105, 200.00, 2020, 'Store D', 'Product V', '2020-07-22', 50, 'Home'),
+    (4, 105, 100.00, 2021, 'Store D', 'Product V', '2021-07-22', 90, 'Clothing'),
+	(4, 150, 300.00, 2022, 'Store D', 'Product V', '2022-07-22', 50, 'Home');
 
 select * from SalesData;
 DROP TABLE SalesData;
